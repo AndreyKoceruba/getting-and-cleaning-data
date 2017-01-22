@@ -72,5 +72,5 @@ data_set <- subset(data_set, select = -y)
 # group data by activity labels and subject and calculate mean of each feature in each group
 tidy_set <- data_set %>% group_by(activity, subject) %>% summarise_each(funs(mean))
 
-# write tidy data to .csv
+# write tidy data to .txt
 write.table(tidy_set, file = "Tidy Set.txt", row.names = FALSE)
