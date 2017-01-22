@@ -73,4 +73,4 @@ data_set <- subset(data_set, select = -y)
 tidy_set <- data_set %>% group_by(activity, subject) %>% summarise_each(funs(mean))
 
 # write tidy data to .csv
-write.csv(tidy_set, file = "Tidy Set.csv", row.names = FALSE)
+write.table(tidy_set, file = "Tidy Set.txt", row.names = FALSE)

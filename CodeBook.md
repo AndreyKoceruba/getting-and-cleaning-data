@@ -1,12 +1,12 @@
 # Code Book
 ## About this Code Book
-This Code Book contains information about data, which are in file "Tidy Set.csv"
+This Code Book contains information about data, which are in file "Tidy Set.txt"
 ## Data Source
 The data set has downloaded from here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.<br />
 For more information about this data, one can use this link http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 or one read the file README.txt from .zip archive from first link.
-## "Tidy Set.csv" processing
-"Tidy Set.csv" is obtain by processing next data source files:
+## "Tidy Set.txt" processing
+"Tidy Set.txt" is obtain by processing next data source files:
 * subject_test.txt
 * X_test.txt
 * y_test.txt

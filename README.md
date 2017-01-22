@@ -2,8 +2,8 @@
 ## Files description
 This repository contains the following files:
 * CodeBook.md - describes the variables, the data, and any transformations or work that performed to clean up the data 
-* "Tidy Set.csv" - contains the tidy data set obtained after processing raw data
-* run_analysis.R - R script which process the raw data and save the result (tidy data) to the file "Tidy Set.csv"
+* "Tidy Set.txt" - contains the tidy data set obtained after processing raw data
+* run_analysis.R - R script which process the raw data and save the result (tidy data) to the file "Tidy Set.txt"
 
 ## run_analysis.R script algorithm
 1. Assign necessary paths to variables
@@ -23,4 +23,4 @@ This repository contains the following files:
 15. Load activity labels
 16. Join data set from step 14 and activity labels
 17. Group result data set by activity labels and subject and calculate mean of every feature in each group
-18. Save tidy data to "Tidy Set.csv"
+18. Save tidy data to "Tidy Set.txt"
